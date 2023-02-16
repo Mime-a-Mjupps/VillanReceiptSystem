@@ -1,0 +1,29 @@
+{
+  "name": "villanreceiptsystem",
+  "version": "1.0.0",
+  "description": "The receipt \"bong\" system for Studentpuben Villan",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mime-a-Mjupps/VillanReceiptSystem.git"
+  },
+  "author": "Mr.Mime,Mjupps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mime-a-Mjupps/VillanReceiptSystem/issues"
+  },
+  "homepage": "https://github.com/Mime-a-Mjupps/VillanReceiptSystem#readme",
+  "dependencies": {
+    "@keyv/sqlite": "^3.0.0",
+    "axios": "^0.26.0",
+    "canvas": "^2.9.0",
+    "dotenv": "^16.0.0",
+    "keyv": "^4.1.1",
+    "node-cron": "^3.0.0",
+    "node-thermal-printer": "^4.1.2",
+    "pino": "^7.8.0"
+  }
+}
